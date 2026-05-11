@@ -326,7 +326,7 @@
           <h3>Analysis of Unison Performances</h3>
         </div>
 
-        <div style="margin:auto;padding:10px;text-align:center;border: 1px solid rgb(0,0,0); width:700px;background-color:rgba(100,100,100,0.1);">
+        <div style="margin:auto;padding:10px;text-align:left;border: 1px solid rgb(0,0,0); width:700px;background-color:rgba(100,100,100,0.1);">
           <div class="example-row">
             <div class="example-notes">
               <!-- <div class="example-note note-1">Piano Roll</div>
@@ -337,11 +337,21 @@
               <img src="img/20251011_piece1_ensemble_take1_all_diff_18s_24s.png" alt="MIDI transcription example 3">
             </div>
           </div>
+          This figure presents an example of the visualized note-level features for a clarinet unison ensemble.
+          Onset and offset times are depicted by vertical lines, while F0 and loudness are shown as horizontal lines in the upper and lower sections, respectively. 
+          Distinct colors are used to represent each player.
+          Additionally, the F0 and loudness contours are superimposed on the plot.
+
+          The results highlight timing deviations during rhythmic phrases (18-20 s) and inconsistent loudness variations across performers (20-24 s).
+          Regarding the former, rhythmic instability is observed because the leading performer varies for each note within the passage. 
+          Furthermore, a consistent pitch bias is evident, with Player 1 tending to play flat and Player 3 tending to play sharp. 
+          Regarding the latter, Player 3 exhibits a V-shaped loudness contour, whereas Players 1 and 2 perform a continuous decrescendo. 
+          Given that the musical score specifies a decrescendo followed by a crescendo in this passage, these findings confirm that Players 1 and 2 failed to achieve the intended dynamic control.
 
           <table style="margin: 10px auto 0; width: 100%; max-width: 600px;">
             <tbody>
               <tr>
-                <td>Condenser Mic</td>
+                <td>Condenser Mic (Mixture)</td>
                 <td>
                   <audio controls>
                     <source src="audio/20251011_piece1_ensemble_take1_cond_trimmed.mp3" type="audio/mpeg">
