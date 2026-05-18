@@ -81,8 +81,7 @@
         </div>
 
         <div style="margin:auto;padding:10px;text-align:center;border: 1px solid rgb(0,0,0); width:700px;background-color:rgba(100,100,100,0.1);">
-        We present a method for analyzing individual clarinet performances in a wind orchestra using contact microphones. The goal is to precisely quantify performance features (e.g., pitch, onset/offset time, and loudness) from individual players' recordings, for practice support. While previous studies have used high directional microphones to reduce sound contamination, this approach is less effective when players are distributed in two dimensions. As an alternative, we use contact microphones, which significantly reduce interference from other players, with drawbacks that they catch noise from key movements and have acoustical characteristics that differ from perceived sounds. To estimate the performance features from contact-microphone recordings using deep neural networks, we collect synchronized recordings using both contact and condenser microphones and propose transfer learning methods that do not require annotated training data. Experiments show that the proposed method achieves high accuracy in transcribing note timings and pitch and in estimating loudness. We also demonstrate its potential in analyzing performance features in clarinet unison performances. The method is applicable to a wide variety of musical instruments.  
-        </div>
+          We present a method for analyzing individual clarinet performances in a wind ensemble using contact microphones. The goal is to precisely quantify performance features (e.g. pitch, onset/offset time, and loudness) from individual players' recordings, for practice support. While previous studies have used highly directional microphones to reduce sound contamination, this approach is less effective when players are distributed in two dimensions. As an alternative, we use contact microphones, which significantly reduce interference from other players, with drawbacks that they capture noise from key movements and exhibit acoustic characteristics that differ from those of perceived sounds. To estimate performance features from contact-microphone recordings using deep neural networks, we collect synchronized recordings from both contact and condenser microphones and propose learning methods that do not require annotated training data. Experiments show that the proposed methods achieve high accuracy in transcribing note timing and pitch, as well as in estimating loudness. We also demonstrate their potential for analyzing clarinet unison performances. The method is applicable to a wide variety of musical instruments.        </div>
 
         <div style="height:20px;"></div>
 
@@ -344,16 +343,10 @@
             </div>
           <!-- </div> -->
           <p>
-            figure presents an example of the visualized note-level features for a clarinet unison ensemble.
-            Onset and offset times are depicted by vertical lines, while F0 and loudness are shown as horizontal lines in the upper and lower sections, respectively. 
-            Distinct colors are used to represent each player.
-            Additionally, the F0 and loudness contours are superimposed on the plot.
-
-            The results highlight timing deviations during rhythmic phrases (18-20 s) and inconsistent loudness variations across performers (20-24 s).
-            Regarding the former, rhythmic instability is observed because the leading performer varies for each note within the passage. 
-            Furthermore, a consistent pitch bias is evident, with Player 1 tending to play flat and Player 3 tending to play sharp. 
-            Regarding the latter, Player 3 exhibits a V-shaped loudness contour, whereas Players 1 and 2 perform a continuous decrescendo. 
-            Given that the musical score specifies a decrescendo followed by a crescendo in this passage, these findings confirm that Players 1 and 2 failed to achieve the intended dynamic control.
+            This figure presents an example of the visualized note-level features for a clarinet unison ensemble, assigning distinct colors to each player.
+Vertical lines indicate onset and offset times, while horizontal lines indicate note-level F0 and loudness in the upper and lower sections, along with their continuous curves.
+The results highlight timing and pitch deviations during a rhythmic phrase (18--20 s), where rhythmic instability is observed because the leading performer varies for each note within the passage, and a consistent pitch bias is evident, with player 1 tending to play in lower intonation and player 3 tending to play in higher intonation. 
+In the 20--24 s segment, inconsistent dynamic control can be observed, player 3 correctly exhibits a V-shaped loudness contour (a decrescendo followed by a crescendo, following score indications), but players 1 and 2 incorrectly perform a continuous decrescendo. 
           </p>
           <table style="margin: 10px auto 0; width: 100%; max-width: 600px;">
             <tbody>
