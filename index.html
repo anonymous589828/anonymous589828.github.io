@@ -47,6 +47,9 @@
       width: auto;
       max-width: none;
       }
+      td {
+        vertical-align: middle;
+      }
     </style>
   </head>
 
@@ -327,27 +330,28 @@
         </div>
 
         <div style="margin:auto;padding:10px;text-align:left;border: 1px solid rgb(0,0,0); width:700px;background-color:rgba(100,100,100,0.1);">
-          <div class="example-row">
+          <!-- <div class="example-row"> -->
             <div class="example-notes">
               <!-- <div class="example-note note-1">Piano Roll</div>
               <div class="example-note note-2">Loudness [dB]</div>
               <div class="example-note note-3">Difference [dB]</div> -->
             </div>
             <div class="example-scroll">
-              <img src="img/20251011_piece1_ensemble_take1_all_diff_18s_24s.png" alt="MIDI transcription example 3">
+              <img src="img/20251011_piece1_ensemble_take1_all_diff_18s_24s.png" alt="MIDI transcription example 3" style="display: block; margin: auto;">
             </div>
-          </div>
-          This figure presents an example of the visualized note-level features for a clarinet unison ensemble.
-          Onset and offset times are depicted by vertical lines, while F0 and loudness are shown as horizontal lines in the upper and lower sections, respectively. 
-          Distinct colors are used to represent each player.
-          Additionally, the F0 and loudness contours are superimposed on the plot.
+          <!-- </div> -->
+          <p>
+            figure presents an example of the visualized note-level features for a clarinet unison ensemble.
+            Onset and offset times are depicted by vertical lines, while F0 and loudness are shown as horizontal lines in the upper and lower sections, respectively. 
+            Distinct colors are used to represent each player.
+            Additionally, the F0 and loudness contours are superimposed on the plot.
 
-          The results highlight timing deviations during rhythmic phrases (18-20 s) and inconsistent loudness variations across performers (20-24 s).
-          Regarding the former, rhythmic instability is observed because the leading performer varies for each note within the passage. 
-          Furthermore, a consistent pitch bias is evident, with Player 1 tending to play flat and Player 3 tending to play sharp. 
-          Regarding the latter, Player 3 exhibits a V-shaped loudness contour, whereas Players 1 and 2 perform a continuous decrescendo. 
-          Given that the musical score specifies a decrescendo followed by a crescendo in this passage, these findings confirm that Players 1 and 2 failed to achieve the intended dynamic control.
-
+            The results highlight timing deviations during rhythmic phrases (18-20 s) and inconsistent loudness variations across performers (20-24 s).
+            Regarding the former, rhythmic instability is observed because the leading performer varies for each note within the passage. 
+            Furthermore, a consistent pitch bias is evident, with Player 1 tending to play flat and Player 3 tending to play sharp. 
+            Regarding the latter, Player 3 exhibits a V-shaped loudness contour, whereas Players 1 and 2 perform a continuous decrescendo. 
+            Given that the musical score specifies a decrescendo followed by a crescendo in this passage, these findings confirm that Players 1 and 2 failed to achieve the intended dynamic control.
+          </p>
           <table style="margin: 10px auto 0; width: 100%; max-width: 600px;">
             <tbody>
               <tr>
